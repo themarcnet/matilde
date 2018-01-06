@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatildeTracker", "MatildeTracker.vcproj", "{34A84216-9B9E-4372-AE1E-5B95C986B1DB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug Mono = Debug Mono
+		Release = Release
+		Release Mono = Release Mono
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{34A84216-9B9E-4372-AE1E-5B95C986B1DB}.Debug.ActiveCfg = Debug|Win32
+		{34A84216-9B9E-4372-AE1E-5B95C986B1DB}.Debug.Build.0 = Debug|Win32
+		{34A84216-9B9E-4372-AE1E-5B95C986B1DB}.Debug Mono.ActiveCfg = Debug Mono|Win32
+		{34A84216-9B9E-4372-AE1E-5B95C986B1DB}.Debug Mono.Build.0 = Debug Mono|Win32
+		{34A84216-9B9E-4372-AE1E-5B95C986B1DB}.Release.ActiveCfg = Release|Win32
+		{34A84216-9B9E-4372-AE1E-5B95C986B1DB}.Release.Build.0 = Release|Win32
+		{34A84216-9B9E-4372-AE1E-5B95C986B1DB}.Release Mono.ActiveCfg = Release Mono|Win32
+		{34A84216-9B9E-4372-AE1E-5B95C986B1DB}.Release Mono.Build.0 = Release Mono|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
