@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{de976014-6b04-4b0f-9410-30f61905b5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{a9887d47-f073-4596-873b-e76b8d97655d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surfs DSP Lib">
+      <UniqueIdentifier>{62ac7841-3af2-47c0-8a2f-114a9e7cc394}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Matilde Tracker.html">
+      <Filter>Docs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Matilde.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Surfs DSP Lib\SRF_2PFilter.cpp">
+      <Filter>Surfs DSP Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfs DSP Lib\SRF_Amp.cpp">
+      <Filter>Surfs DSP Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfs DSP Lib\SRF_AutoGain.cpp">
+      <Filter>Surfs DSP Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfs DSP Lib\SRF_DSP.CPP">
+      <Filter>Surfs DSP Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfs DSP Lib\SRF_Resampler.cpp">
+      <Filter>Surfs DSP Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="BuzzInstrument.cpp" />
+    <ClCompile Include="BuzzSample.cpp" />
+    <ClCompile Include="Channel.cpp" />
+    <ClCompile Include="Envelope.cpp" />
+    <ClCompile Include="IInstrument.cpp" />
+    <ClCompile Include="ISample.cpp" />
+    <ClCompile Include="Track.cpp" />
+    <ClCompile Include="Tracker.cpp" />
+    <ClCompile Include="WavetableManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Surfs DSP Lib\SRF_2PFilter.h">
+      <Filter>Surfs DSP Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfs DSP Lib\SRF_Amp.h">
+      <Filter>Surfs DSP Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfs DSP Lib\SRF_DSP.H">
+      <Filter>Surfs DSP Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfs DSP Lib\SRF_Resampler.h">
+      <Filter>Surfs DSP Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfs DSP Lib\SRF_Types.h">
+      <Filter>Surfs DSP Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="BuzzInstrument.h" />
+    <ClInclude Include="BuzzSample.h" />
+    <ClInclude Include="Channel.h" />
+    <ClInclude Include="Envelope.h" />
+    <ClInclude Include="IInstrument.h" />
+    <ClInclude Include="ISample.h" />
+    <ClInclude Include="Track.h" />
+    <ClInclude Include="Tracker.h" />
+    <ClInclude Include="WavetableManager.h" />
+  </ItemGroup>
+</Project>
